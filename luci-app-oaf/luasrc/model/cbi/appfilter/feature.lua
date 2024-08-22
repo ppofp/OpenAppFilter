@@ -30,7 +30,7 @@ end
 local display_str = "<strong>"..translate("Current version")..":  </strong>" .. version .. 
                     "<br><strong>"..translate("Feature format")..":</strong>  " ..format ..
                     "<br><strong>"..translate("App number")..":</strong>  " ..rule_count ..
-                    "<br><strong>"..translate("Feature download")..":</strong><a href=\"http://www.openappfilter.com\" target=\"_blank\">www.openappfilter.com</a>"
+                    "<br><strong>"..translate("Feature download")..":</strong><a href=\"http://www.higc.cn\" target=\"_blank\">www.higc.cn</a>"
 s = m:section(TypedSection, "feature", translate("App Feature"), display_str)
 
 fu = s:option(FileUpload, "")
